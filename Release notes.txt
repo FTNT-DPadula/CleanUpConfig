@@ -1,0 +1,25 @@
+### Features ###
+Version 1.0
+ - Initial release, CLI mode only
+
+Version 2.0
+ - GUI interface added
+
+Version 2.2:
+ - Help menu added
+
+Version 2.3:
+ - Add admin as super_admin account in case it does not exist (suggested by Simon Tan)
+
+Version 2.4:
+ - FGT HTTP GUI access port can be change to default value (80) (suggested by Simon Tan)
+ - FGT HTTPS GUI access port can be change to default value (443) (suggested by Simon Tan)
+ - Check boxes for all options have been added, you can choose if you want or not to change the settings
+
+Version 2.8
+ - Add admintimeout to 480
+
+Suggestion from the team (future implementation)
+ - Remove static route (suggested by Chris Tan)
+ - Add mgmt port	   (suggested by Chris Tan)
+ - Add dropbox list to select port number (suggested by Yi Dong)
