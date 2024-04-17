@@ -9,7 +9,7 @@ Version 2.2:
  - Help menu added
 
 Version 2.3:
- - Add admin as super_admin account in case it does not exist (suggested by Simon Tan)
+ - Added admin as super_admin account in case it does not exist (suggested by Simon Tan)
 
 Version 2.4:
  - FGT HTTP GUI access port can be change to default value (80) (suggested by Simon Tan)
@@ -17,7 +17,10 @@ Version 2.4:
  - Check boxes for all options have been added, you can choose if you want or not to change the settings
 
 Version 2.8
- - Add admintimeout to 480
+ - Added admintimeout to 480
+ 
+Version 2.9
+ - Added function 'remove_2FA' by Nivedha Balasubramanian
 
 Suggestion from the team (future implementation)
  - Remove static route (suggested by Chris Tan)
