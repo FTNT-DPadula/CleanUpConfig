@@ -22,7 +22,41 @@ Version 2.8
 Version 2.9
  - Added function 'remove_2FA' by Nivedha Balasubramanian
 
+Version 3.1
+ - Remove 'post-login-banner' (suggested by Simon Tan)
+
+config system global
+    set post-login-banner disable
+end
+
+Version 3.2
+ - Remove 'config system password-policy' (suggested by Andrew Xiong)
+ 
+config system password-policy
+    set status enable
+    set min-lower-case-letter 1
+    set min-upper-case-letter 1
+    set min-non-alphanumeric 1
+    set min-number 1
+end
+
+Version 3.3
+ - Replace DNS settings by default settings. 
+ 
+Default DNS settings are:
+config system dns
+    set primary 96.45.45.45
+	set primary 96.45.46.46
+    set protocol dot
+end
+
+Version 3.4
+ - Progress bar added to show progress when config file is too big. Without the progress bar big config between menu changes the script takes few seconds giving the impression that it is not running
+ - Fixed BUG-00001 Extra new line on DNS settings
+
+===================================================================
+
 Suggestion from the team (future implementation)
  - Remove static route (suggested by Chris Tan)
- - Add mgmt port	   (suggested by Chris Tan)
+ - Add mgmt port       (suggested by Chris Tan)
  - Add dropbox list to select port number (suggested by Yi Dong)
