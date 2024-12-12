@@ -63,9 +63,14 @@ Version 3.6
  - Fortinet icon added to the application
  - A copy of the original file is made and suffix '_clean' is added to it. Eg.: FGT01-SYDNEY.config, edited file is called: FGT01-SYDNEY_clean.config
 
+Version 3.7
+ - 'set admin-server-cert <certificate_name>' can be removed
+ 
 ===================================================================
 
 Suggestion from the team (future implementation)
  - Remove static route (suggested by Chris Tan)
  - Add mgmt port       (suggested by Chris Tan)
  - Add dropbox list to select port number (suggested by Yi Dong)
+ - Comment IP address of physical interfaces
+ - Include the FortiOS version on top of the output
