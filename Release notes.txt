@@ -65,6 +65,9 @@ Version 3.6
 
 Version 3.7
  - 'set admin-server-cert <certificate_name>' can be removed
+
+Version 3.8
+ - New GUI colours
  
 ===================================================================
 
